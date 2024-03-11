@@ -4,8 +4,6 @@ import './styles.css'
 
 const API_URL = 'https://api.valantis.store:41000/';
 
-// ... (ваш импорт и константы)
-
 const App = () => {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
